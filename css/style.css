@@ -1,0 +1,137 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.container {
+    margin-top: 3rem;
+}
+
+.content {
+    background-color: #add8e6;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+
+    width: 100%;
+    border-radius: 5px;
+    padding: 1rem;
+    margin-bottom: 15px;
+}
+
+.main_div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #ffc0cb;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+
+    flex-wrap: wrap;
+    word-break: break-all;
+    border-radius: 5px; 
+   
+}
+
+.main_div .main_div-content{
+    margin: 2rem;
+    flex: 1;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+
+    background-color: #dcdcdc;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.main_div-titles{
+    display: flex;
+    justify-content: center;
+}
+
+#listContainer {
+    margin: 0px;
+    position: relative;
+    right: 1.5rem;
+}
+#addLnButton {
+    margin-bottom: 5px;
+}
+
+.input-dropdownmenu[type="text"] {
+    width: 200px;
+    padding: 7px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    outline: none;
+}
+
+.input-dropdownmenu[type="button"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.input-dropdownmenu[type="button"]:hover {
+    background-color: #0056b3;
+}
+
+
+.select-dropdownmenu {
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    cursor: pointer;
+    outline: none;
+}
+
+.select-dropdownmenu option:hover {
+    background-color: #f2f2f2;
+}
+
+/**/
+.first-level-heading {
+    font-size: 3rem;
+    font-weight: 800;
+    margin: 0px;
+}
+
+.second-level-heading {
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+.inline-code {
+    font-family: 'Courier New', monospace;
+    background-color: #f4f4f4;
+    padding: 4px 6px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.bullet-point::before {
+    content: "\2022";
+    /* Unicode bullet character */
+    margin-right: 5px;
+    /* Adjust the spacing between the bullet and text */
+}
+
+.url-link {
+    color: blue;
+    text-decoration: underline;
+    font-family: Arial, sans-serif;
+}
